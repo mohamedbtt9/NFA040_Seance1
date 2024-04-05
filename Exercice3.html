@@ -1,0 +1,72 @@
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 3</title>
+</head>
+<body>
+
+    <form>
+        <p>
+            <label for="pseudo">Votre pseudo : </label>
+            <input type="text" id="pseudo" name="pseudo">
+        </p>
+        <p>
+            <label for="mdp">Votre Mot de passe : </label>
+            <input type="password"  name="mdp">
+        </p>
+        <p>
+            <label for="confirmation_mot_de_passe">Ressaisir votre mot de passe : </label>
+            <input type="password" name="ressaisir_mdp">
+        </p>
+        <p>
+            <label for="os_prefere">OS préféré : </label>
+            <br>
+            <input type="radio"  name="os_prefere" value="windows_xp">
+            <label for="windows_xp">Windows XP</label>
+            <br>
+            <input type="radio"  name="os_prefere" value="windows_vista">
+            <label for="windows_vista">Windows Vista</label>
+            <br>
+            <input type="radio"  name="os_prefere" value="mac_os_x">
+            <label for="mac_os_x">Mac OS X</label>
+            <br>
+            <input type="radio"  name="os_prefere" value="linux">
+            <label for="linux">Linux</label>
+            <br>
+            <input type="radio"  name="os_prefere" value="autre">
+            <label for="autre">Autre</label>
+        </p>
+              
+             <p>
+            <label for="materiel">Vous possédez : </label>
+            <br>
+            <input type="checkbox"  name="materiel[]" value="ordinateur_de_bureau">
+            <label for="ordinateur_de_bureau">Un ordinateur de bureau</label>
+            <br>
+            <input type="checkbox" name="materiel[]" value="portable">
+            <label for="portable">Portable</label>
+            <br>
+            <input type="checkbox"  name="materiel[]" value="netbook">
+            <label for="netbook">Netbook</label>
+            <br>
+            <input type="checkbox"  name="materiel[]" value="tablette">
+            <label for="tablette">Tablette (Pad)</label>
+        </p>
+        <p>
+        <p>
+            <label for="profession">Votre profession : </label>
+            <select  name="profession">
+                <option value="chomage">Chômeur</option>
+                <option value="etudiant">Etudiant</option>
+                <option value="fonctionnaire">Fonctionnaire</option>
+                <option value="prive">Privé</option>
+                <option value="retraite">Retraité</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="S'inscrire !">
+        </p>
+    </form>
+</body>
+</html>
