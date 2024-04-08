@@ -1,55 +1,47 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
   <title>Exercice CSS</title>
   <style>
     body {
       background-color: black;
       color: white;
+    }
+
+    header {
+         padding: auto;
       border: 1px solid white;
-      padding: 386px;
-      margin: 12px;
+      width: 700px; 
+      height: 400px; 
+      margin: 180px auto 150px auto; 
+     
+    }
+
+    #Madiv1, #Madiv2, #Madiv3, #Madiv4 {
+      display: block;
+      margin: 20px; 
+      padding: 90px 20px 50px 150px; 
+      float: left; 
     }
 
     #Madiv1 {
-      color: white;
       background-color: green;
-      position: absolute;
-      left: 25px;
-      top: 25px;
-      width: 250px;
-      height: 250px;
     }
 
     #Madiv2 {
-      color: white;
-      background-color: orange;
-      position: absolute;
-      right: 25px;
-      top: 25px;
-      width: 250px;
-      height: 250px;
+      float: right; 
+      background-color: orange; 
     }
 
     #Madiv3 {
-      color: white;
-      background-color: blue;
-      position: absolute;
-      right: 25px;
-      width: 250px;
-      height: 250px;
-      bottom: 25px;
+      background-color: red;
+      clear: both; 
     }
 
     #Madiv4 {
-      color: white;
-      background-color: red;
-      position: absolute;
-      left: 25px;
-      bottom: 25px;
-      width: 250px;
-      height: 250px;
+      background-color: blue;
+      float: right; 
     }
   </style>
 </head>
@@ -57,8 +49,8 @@
   <header>
     <div id="Madiv1">En haut à gauche</div>
     <div id="Madiv2">En haut à droite</div>
-    <div id="Madiv3">En bas à droite</div>
-    <div id="Madiv4">En bas à gauche</div>
+    <div id="Madiv3">En bas à gauche</div>
+    <div id="Madiv4">En bas à droite</div>
   </header>
 </body>
 </html>
